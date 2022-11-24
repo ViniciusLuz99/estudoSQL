@@ -1,4 +1,4 @@
-/* 
+/* Modelo CREATE TABLE
 CREATE TABLE (
    nome_coluna tipo_dado constraints,
    nome_coluna tipo_dado constraints,
@@ -37,7 +37,7 @@ CREATE TABLE pedidos (
 */
 --FIM da Aula
 
-/*
+/* Modelo INSERT INTO
 INSERT INTO  nome_tablea (coluna 1, coluna2, coluna3....)
 VALUES (dado1, dado2, dado3...);
 */
