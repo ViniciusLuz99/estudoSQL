@@ -74,4 +74,13 @@ VALUES
 (2,3,2),
 (1,3,4);
 */
+ --Fim Aula
+
+/* 
+Declaração SELECT: Consultas simples em tabelas de um banco de dados.
+
+Sintaxe:
+
+SELECT coluna(s) FROM tabela
+*/
 
