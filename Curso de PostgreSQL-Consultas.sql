@@ -22,7 +22,6 @@ SELECT nome_cliente, sobrenome_cliente FROM clientes;
 /*
 SELECT * FROM produtos;
 */
-
 --Fim da Aula 
 
 /*
@@ -53,3 +52,33 @@ SELECT nome_produto, preco
 FROM produtos
 WHERE preco >= 15.00;
 */
+--Fim da Aula
+
+--Ordenação de Resultados em consultas - Cláusula ORDER BY
+/*Sintaxe:
+SELECT coluna(s)
+FROM tabela
+WHERE condições
+ORDER BY coluna, coluna ASC  / DESC
+*/
+
+--ordenando por ordem alfabetica pelo nome do produto
+/*
+SELECT * FROM produtos
+ORDER BY nome_produto;
+*/
+
+--Ordena primeiro por nome e depois por preço
+SELECT nome_produto,preco FROM produtos
+ORDER BY nome_produto,preco;
+
+--Ordenar por descrição com NULL primeiro ou no final
+--NULLS FIRST / LAST
+SELECT nome_produto,descricao FROM produtos
+ORDER BY descricao NULLS FIRST;
+
+--Preços que Custam mais que 10r$ e estao em ordem de preço
+SELECT nome_produto,preco FROM produtos
+WHERE preco > 10.00
+ORDER BY preco;
+--FIM da AULA

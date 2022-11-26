@@ -75,3 +75,17 @@ VALUES
 (1,3,4);
 */
  --Fim Aula
+
+/* Inserindo mais dados para aula 16
+INSERT INTO produtos(cod_produto, nome_produto, descricao, preco, qtde_estoque)
+VALUES
+(6, 'Detergente', 'Detergente liquido 500ml', 1.89, 32),
+(7, 'Leite Integral', 'Leite Integral Caixa 1 litro', 4.60, 70),
+(8, 'Refrigerante', 'Garrafa de refrigerante de 600ml', 3.70, 14),
+(9, 'Refrigerante', 'Garrafa de refrigerante de 1 litrol', 6.89, 16),
+(10, 'Refrigerante', 'Garrafa de refrigerante de 350ml', 2.99, 45);
+
+INSERT INTO produtos (cod_produto,nome_produto,preco,qtde_estoque)
+VALUES
+(11,'Margarina',3.20,8)
+*/
